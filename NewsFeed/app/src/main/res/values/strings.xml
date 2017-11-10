@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">News Feed</string>
+    <string name="no_internet_connection">no internet connection</string>
+    <string name="no_news_available">no news available</string>
+
+    <string name="settings_menu_item">Settings</string>
+    <string name="back_menu_item">Back</string>
+
+    <!-- Strings For Order-By Preference [CHAR LIMIT=30] -->
+    <string name="settings_type_label">Type</string>
+    <string name="settings_type_key" translatable="false">type</string>
+    <string name="settings_type_default" translatable="false">@string/settings_type_article_value</string>
+
+    <string name="settings_type_article_label">article</string>
+    <string name="settings_type_article_value" translatable="false">article</string>
+
+    <string name="settings_type_video_label">video</string>
+    <string name="settings_type_video_value" translatable="false">video</string>
+
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+</resources>
